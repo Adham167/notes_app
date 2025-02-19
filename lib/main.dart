@@ -11,7 +11,6 @@ class NoteApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Scaffold(),
     );
   }
 }
