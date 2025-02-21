@@ -1,4 +1,4 @@
 import 'package:flutter/material.dart';
 
-// ignore: constant_identifier_names
-const KPrimaryColor = Color(0xff62fcd7);
+const kPrimaryColor = Color(0xff62fcd7);
+const kNotesBox = 'notes_box';
