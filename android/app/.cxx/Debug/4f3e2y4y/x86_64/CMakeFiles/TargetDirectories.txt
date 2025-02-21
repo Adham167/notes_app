@@ -1,0 +1,2 @@
+E:/StudioProjects/note_app_1/android/app/.cxx/Debug/4f3e2y4y/x86_64/CMakeFiles/edit_cache.dir
+E:/StudioProjects/note_app_1/android/app/.cxx/Debug/4f3e2y4y/x86_64/CMakeFiles/rebuild_cache.dir

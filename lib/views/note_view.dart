@@ -18,8 +18,8 @@ class NoteView extends StatelessWidget {
                   return const AddNoteBottomSheet();
                 });
           },
-          child: Icon(Icons.add)),
-      body: NoteViewBody(),
+          child: const Icon(Icons.add)),
+      body: const NoteViewBody(),
     );
   }
 }

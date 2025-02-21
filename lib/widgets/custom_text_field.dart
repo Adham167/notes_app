@@ -2,8 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:note_app_1/constants.dart';
 
 class CustomTextField extends StatelessWidget {
+  // ignore: non_constant_identifier_names
   const CustomTextField({super.key, required this.hint, this.Maxline = 1});
   final String hint;
+  // ignore: non_constant_identifier_names
   final int Maxline;
 
   @override
@@ -20,6 +22,7 @@ class CustomTextField extends StatelessWidget {
     );
   }
 
+  // ignore: non_constant_identifier_names, avoid_types_as_parameter_names
   OutlineInputBorder Build_border([Color]) {
     return OutlineInputBorder(
         borderRadius: BorderRadius.circular(8),
