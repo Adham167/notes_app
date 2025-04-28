@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:note_app_1/constants.dart';
 import 'package:note_app_1/widgets/add_note_bottom_sheet.dart';
 import 'package:note_app_1/widgets/node_view_body.dart';
 
