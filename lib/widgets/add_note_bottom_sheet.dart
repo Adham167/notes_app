@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:modal_progress_hud_nsn/modal_progress_hud_nsn.dart';
 import 'package:note_app_1/cubits/add_note_cubit/add_note_cubit.dart';
 import 'package:note_app_1/widgets/add_note_form.dart';
 
@@ -24,10 +23,9 @@ class AddNoteBottomSheet extends StatelessWidget {
             absorbing: state is AddNoteLoading ? true : false,
             child: Padding(
               padding: EdgeInsets.only(
-                left : 16.0,
-                right: 16,
-                bottom: MediaQuery.of(context).viewInsets.bottom
-              ),
+                  left: 16.0,
+                  right: 16,
+                  bottom: MediaQuery.of(context).viewInsets.bottom),
               child: const SingleChildScrollView(child: AddNoteForm()),
             ),
           );
